@@ -1,0 +1,25 @@
+[ADT]
+llvm/include/ADT/SmallVector.h
+llvm/include/ADT/SmallString.h
+llvm/include/ADT/Twine.h
+llvm/include/ADT/StringRef.h
+llvm/include/ADT/Triple.h
+llvm/lib/Support
+
+[Function]
+llvm/include/llvm/IR/Function.h
+llvm/lib/IR/Function.cpp
+
+[LLVMContext] # contains builtin types and constant values
+llvm/include/llvm/IR/LLVMContext.h
+llvm/lib/IR/LLVMContext.cpp
+llvm/lib/IR/LLVMContextImpl.h
+llvm/lib/IR/LLVMContextImpl.cpp
+
+[Module] # contains some functions
+
+[Type]
+llvm/include/llvm/IR/Type.h
+llvm/lib/IR/Type.cpp
+
+[Diagnostic] # clang diagnostic 
